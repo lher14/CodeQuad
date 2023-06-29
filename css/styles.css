@@ -1,0 +1,141 @@
+body {
+  background-color: rgb(165, 183, 166);
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+body header {
+  text-align: left;
+}
+
+.logo {
+  text-align: left;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+}
+
+ul {
+  list-style: none;
+  background: #7f7979;
+  font-family: cursive;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+  opacity: 0.8; /*will make the dropdown transparent*/
+}
+
+ul li a {
+  display: block;
+  padding: 20px 25px;
+  color: rgb(5, 5, 5);
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+ul li ul.dropdown li {
+  display: block;
+}
+
+ul li ul.dropdown {
+  width: 100%;
+  background: rgb(195, 212, 195);
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+
+ul li a:hover {
+  background: whitesmoke;
+}
+
+ul li:hover ul.dropdown {
+  display: block;
+}
+
+/* .topnav {
+  background-color: #7f7979;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+}
+
+.topnav a {
+  float: none;
+
+  /* color will change the color of the navigation words */
+/* color: rgb(5, 5, 5);
+
+  /* I don't know what this does yet */
+/* text-align: center; */
+
+/* padding will spread out the navigation items */
+/* padding: 14px 16px;
+
+  /* This will decorate your text; example is a "line-through" the words */
+/* text-decoration: none; */
+
+/* This will change the whole size of the navigation bar and words inside it */
+/* font-size: 25px; */
+/* } */
+
+/* .topnav a:hover { */
+/* background-color will change the background of the word if I hover my mouse over it */
+/* background-color: whitesmoke; */
+
+/* This will change the color of the word if I hover over it with my mouse */
+/* color: rgb(165, 183, 166); */
+/* } */
+
+/* .topnav a.active { */
+/* Whichever tab we are on, it'll highlight the tab with a color I choose */
+/* background-color: whitesmoke; */
+/* padding-top: 0%; */
+/* padding-bottom: 0%; */
+/* Will change the color of the words that is the active tab  */
+/* color: #7f7979; */
+/* } */
+/* .active:hover .dropdown-content {
+  display: block;
+}
+.logo {
+  text-align: left;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.topnav .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 100;
+}
+
+.active .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  left: 30%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 100;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} */
